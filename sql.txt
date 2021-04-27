@@ -3,7 +3,7 @@ Use LIMIT and OFFSET to get entries 11 through 20. Paste your SQL statement belo
 
 	SELECT CustomerName, ContactName, Country FROM Customers
 												ORDER BY Country
-                                                LIMIT 11 OFFSET 20;
+                                                LIMIT 10 OFFSET 10;
 
 (2) Select all columns from the Customer table where the ContactName starts with A.  Paste your SQL statement below.
 
